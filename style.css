@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap');
+
+body {
+    background-color: rgb(207, 207, 207);
+    background-image: url("./Images/spaceWallpaper.jpg");
+}
+
+header {
+    border-bottom: solid;
+    border-color: rgb(97, 96, 96);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 40pt;
+    color: rgb(34, 46, 116);
+    margin: 20px;
+    padding: 10px;
+    text-shadow: -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+}
+
+header section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    text-shadow: -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+}
+
+header section a {
+    text-decoration: none;
+}
+
+header section button {
+    background-color: rgba(118, 30, 218, 0.884);
+    transition-duration: 0.4ms;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px white;
+}
+
+header section button:hover {
+    background-color: rgb(88, 100, 212);
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px white;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerGames {
+    text-shadow: -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+    margin-bottom: 20px;
+}
+
+.headerGames h2{
+    font-size: 25pt;
+}
+
+.headerGames p{
+    font-size: 15pt;
+}
+
+.headerGames p:hover {
+    font-size: 20pt;
+
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.game {
+    position: relative;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: rgb(161, 161, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.game h2 {
+    font-family: 'Edu SA Beginner', cursive;
+    position: absolute;
+    font-size: 25pt;
+    top: 50%;
+    left: 30%;
+    text-shadow: -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+    text-align: center;
+    opacity: 0%;
+}
+
+.game h2:hover {
+    opacity: 100%;
+}
+
+.game img {
+    height: 500px;
+    align-self: center;
+    padding: 5px;
+}
+
+footer {
+    border-top: solid;
+    border-color: rgb(97, 96, 96);
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 25pt;
+    text-shadow: -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+}
+
+footer img {
+    height: 100px;
+}
